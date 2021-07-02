@@ -26,7 +26,7 @@ SECRET_KEY = '0s+xvg*^!8rmgl3t%g@dmxqy8=zrai_%l!(8$zll!m%-bgrs+3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ ALLOWED_HOSTS = ['mayank-crm.herokuapp.com/','127.0.0.1']
 
 
 # Application definition
