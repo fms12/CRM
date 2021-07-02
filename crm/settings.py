@@ -26,7 +26,7 @@ SECRET_KEY = '0s+xvg*^!8rmgl3t%g@dmxqy8=zrai_%l!(8$zll!m%-bgrs+3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
- ALLOWED_HOSTS = ['mayank-crm.herokuapp.com/','127.0.0.1']
+ ALLOWED_HOSTS = ['mayank-crm.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -131,6 +131,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_ROOT =  os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
 MEDIA_URL = '/images/'
