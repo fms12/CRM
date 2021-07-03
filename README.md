@@ -1,4 +1,4 @@
-# CRM Contact Management Project
+# CRM Customer Management Project
 
 
 
