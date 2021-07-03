@@ -1,4 +1,4 @@
-# CRM Customer Management Project
+# CRM Customer Management App
 
 
 
